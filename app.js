@@ -6,7 +6,7 @@ let imageProduct=document.querySelector('.imgProduct')
 next.addEventListener('click',()=>{
     let currentImage=0;
     currentImage=currentImage+1;
-    imageProduct.src=currentImage;
-    alert("Cllcked hard")
+    imageProduct.src=images[currentImage];
+    
 
 })
